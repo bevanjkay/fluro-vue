@@ -185,7 +185,7 @@ this.$fluro.content.retrieve(criteria, {
 {{ myEvent | readableEventDate}}
 
 <!-- Returns '15.7mb' -->
-{{ file.size | filesize}}
+{{ file.filesize | filesize}}
 
 <!-- Returns 'Jeff Goldbum, Kevin Durant, Max Power' -->
 {{[{title:"Jeff Goldblum"}, {title:"Kevin Durant"}, {title:"Max Power"} ] | comma('title')}}
